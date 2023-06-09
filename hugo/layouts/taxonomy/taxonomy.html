@@ -1,4 +1,6 @@
 {{ define "main" }}
+  <h1>{{ .Params.title }} Recipes</h1>
+
   {{ range sort .Paginator.Pages }}
   <article class="markdown book-post">
     <h2>

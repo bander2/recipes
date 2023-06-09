@@ -1,0 +1,9 @@
+.highlights {
+  display: grid;
+  gap: 1em;
+  //grid-template-columns: repeat(3, 1fr);
+  $breakpoint-tablet: 768px;
+  @media (min-width: $mobile-breakpoint) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
