@@ -1,0 +1,62 @@
+{{ define "main" }}
+<article class="markdown">
+    <h1>
+        <a href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+    </h1>
+
+    <section class="meta">
+        <p>
+            {{ if .Params.canonicalUrl }}
+                <strong>Source:</strong>
+                <a href="{{ .Params.canonicalUrl }}">{{ .Params.host }}</a><br>
+            {{ end }}
+
+            <strong>Date:</strong>
+            {{ .PublishDate.Format "January 2, 2006" }}<br>
+
+            <strong>Yields:</strong>
+            {{ .Params.yields }}<br>
+        </p>
+    </section>
+
+    {{ if .Content }}
+        <h2>Notes</h2>
+        {{- .Content -}}
+    {{ end }}
+
+    <h2>Ingredients</h2>
+    <ul>
+        {{ range .Params.ingredients }}
+            <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+
+    <h2>Directions</h2>
+    <ol>
+        {{ range .Params.directions }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ol>
+
+    {{ if .Params.nutrients }}
+        <h2>Nutrients</h2>
+        <table>
+            {{ range $label, $val := .Params.nutrients }}
+                <tr>
+                    <th scope="row">{{ $label | humanize }}</th>
+                    <td>{{ $val }}</td>
+                </tr>
+            {{ end }}
+        </table>
+    {{ end }}
+
+    {{ with .Resources.GetMatch "thumbnail" }}
+        <img src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
+    {{ end }}
+
+</article>
+{{ end }}
+
+{{ define "toc" }}
+{{ partial "docs/toc" . }}
+{{ end }}

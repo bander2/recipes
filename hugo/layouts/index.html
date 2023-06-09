@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+    <section>
+        {{ range (where .Site.RegularPages.ByTitle "Section" "recipe") }}
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ end }}
+    </section>
+</article>
+{{ end }}

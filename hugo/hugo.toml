@@ -1,0 +1,4 @@
+baseURL = 'https://bander2.github.io'
+languageCode = 'en-us'
+title = 'Recipes'
+theme = 'hugo-book'
