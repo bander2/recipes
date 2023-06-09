@@ -27,6 +27,6 @@ ingredients:
 - Toppings (salsa, guac, sour cream)
 nutrients: []
 resources: []
-title: Enchiladas
+title: Fajitas
 yields: 4 servings
 ---
