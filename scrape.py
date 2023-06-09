@@ -105,7 +105,7 @@ class Application:
             with open(path) as file:
                 docs = yaml.safe_load_all(file)
                 this_url = next(docs)['canonicalUrl']
-                if not this_url in data[0].values:
+                if this_url and not this_url in data[0].values:
                     shutil.rmtree(os.path.dirname(path))
                     updated = True
         return updated
