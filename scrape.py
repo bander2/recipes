@@ -54,7 +54,12 @@ class Recipe:
         if self.exists():
             return False
 
-        scraper = scrape_me(self.url, wild_mode=True)
+        try:
+            scraper = scrape_me(self.url, wild_mode=True)
+        except:
+            print("Cannot scrape " + self.url)
+            return False
+
         slug = slugify(scraper.title())
         os.mkdir(os.path.join(self.content_dir, slug))
 
