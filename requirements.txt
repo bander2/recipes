@@ -1,0 +1,4 @@
+recipe-scrapers
+pandas
+pyyaml
+python-slugify

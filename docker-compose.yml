@@ -2,15 +2,22 @@
 version: '3.5'
 services:
   hugo:
-    container_name: recipes
-    build: .
+    container_name: recipes_server
+    image: banderson/hugo:0.113.0
     volumes:
       - ./hugo:/app
-      - ./scrape.py:/scrape.py
     ports:
       - "1313:1313"
     command: hugo server --bind=0.0.0.0 --disableFastRender
     networks:
       - web
+  scraper:
+    container_name: recipes_scraper
+    image: bander2/recipe_scraper
+    build: .
+    volumes:
+      - ./hugo:/app
+    entrypoint: "tail -f /dev/null"
+
 networks:
   web:

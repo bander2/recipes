@@ -1,10 +1,11 @@
+#!/usr/bin/env python
+
 import pandas as pd
 import os
 import re
 import yaml
 import urllib.request
 import shutil
-import subprocess
 from datetime import datetime
 from slugify import slugify
 from recipe_scrapers import scrape_me
@@ -98,7 +99,7 @@ class Application:
         return updated
 
     def delete_old(self) -> bool:
-        """Remove local recupes that are not in the list of urls."""
+        """Remove local recipes that are not in the list of urls."""
         updated = False
         for path in Path(content_dir).rglob('index.md'):
             with open(path) as file:
@@ -109,21 +110,9 @@ class Application:
                     updated = True
         return updated
 
-    def build(self):
-        subprocess.run(["hugo"], cwd='/app')
-        pass
-
-    def push(self):
-        pass
-
     def run(self):
-        if self.add_new() or self.delete_old():
-            self.build()
-            self.push()
-
-
-
-
+        self.add_new()
+        self.delete_old()
 
 content_dir = '/app/content/recipe'
 data = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_W1hoW_XLMMd2jEFuFuEuIKZkGKwuNjWWknJfBzGZpe7C08G5FEKAS4uCT7iWdQOzzBQXJqoj3Wyq/pub?output=csv', header=None)
@@ -131,10 +120,3 @@ data = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_W1hoW_XLM
 for url in data[0]:
     recipe = Recipe(url, content_dir)
     recipe.write()
-
-
-
-
-
-
-
