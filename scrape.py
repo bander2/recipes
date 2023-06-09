@@ -3,6 +3,8 @@
 import pandas as pd
 import os
 import re
+
+import recipe_scrapers._exceptions
 import yaml
 import urllib.request
 import shutil
@@ -71,9 +73,17 @@ class Recipe:
             canonicalUrl = self.url,
             ingredients = scraper.ingredients(),
             directions = scraper.instructions_list(),
-            nutrients = self.snake_keys(scraper.nutrients()),
-            yields = scraper.yields(),
         )
+
+        try:
+            frontmatter.update({'yields': scraper.yields()})
+        except:
+            pass
+
+        try:
+            frontmatter.update({'nutrients': scraper.nutrients()})
+        except:
+            pass
 
         if scraper.image() and self.handle_image(scraper.image(), slug):
             frontmatter.update({'resources': dict(
