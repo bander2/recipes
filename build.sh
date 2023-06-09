@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker-compose run scraper --entrypoint=/scrape.py
+docker-compose run --entrypoint=/scrape.py scraper
 
 if ! git diff-index --quiet HEAD --
 then
