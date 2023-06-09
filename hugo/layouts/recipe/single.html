@@ -50,10 +50,9 @@
         </table>
     {{ end }}
 
-    {{ with .Resources.GetMatch "thumbnail" }}
+    {{ with .Resources.GetMatch "images/thumbnail.jpg" }}
         <img src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
     {{ end }}
-
 </article>
 {{ end }}
 
