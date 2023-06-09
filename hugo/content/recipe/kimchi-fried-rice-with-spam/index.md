@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://drivemehungry.com/kimchi-fried-rice-with-spam/
 date: '2023-06-09T15:40:55Z'
+tags: ["Korean"]
 directions:
 - Fry the Spam
 - Heat a pan over medium high heat and add about a tablespoon of the oil and the cubed

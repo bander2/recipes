@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://spicysouthernkitchen.com/italian-sausage-peppers/
 date: '2023-06-09T15:48:27Z'
+tags: ["Italian"]
 directions:
 - 'Add vegetable oil to a large pan and heat over medium-high heat. Add sausages and
   cook until browned on all sides. Remove sausage from pan and set aside (Note: You

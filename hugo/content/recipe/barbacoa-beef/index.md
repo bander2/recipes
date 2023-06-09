@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.cookingclassy.com/barbacoa/
 date: '2023-06-08T19:52:51Z'
+tags: ["Beef", "Mexican", "Slow Cooker"]
 directions:
 - Cut roast into 6 portions while removing any large pieces of fat. Heat 1 Tbsp vegetable
   oil in a skillet.

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-09T15:40:56Z'
+tags: ["Mexican", "Chicken"]
 directions:
 - Cook and shred the chicken.
 - Put chicken, cheese, enchilada sauce and refried beans in tortillas and line up in baking pan.

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-09T15:40:56Z'
+tags: ["Italian", "Pescatarian"]
 directions:
 - Bring a big pot of water to a boil. This will be for cooking the linguine.
 - Rinse the scallops well and then place on top of paper towels and cover with paper towels to absorb the excess water. Once dry, season with some salt and black pepper on one side.

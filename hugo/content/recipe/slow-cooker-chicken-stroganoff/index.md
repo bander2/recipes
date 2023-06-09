@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-chicken-stroganoff-5536626
 date: '2023-06-08T19:52:44Z'
+tags: ["Slow Cooker"]
 directions:
 - Whisk together the broth, flour, tomato paste, onion soup mix, 1 teaspoon salt and
   1/2 teaspoon pepper in a medium bowl until combined. Add to a 6-quart slow cooker

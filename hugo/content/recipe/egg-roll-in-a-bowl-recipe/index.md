@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://natashaskitchen.com/egg-roll-in-a-bowl-recipe/
 date: '2023-06-09T16:14:21Z'
+tags: ["Chinese"]
 directions:
 - Set a large skillet over medium/high heat and add oil. Once hot, add ground beef
   and brown until no longer pink, about 5 minutes, breaking up the meat with a spatula

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-sunday-gravy-3362170
 date: '2023-06-08T19:52:48Z'
+tags: ["Slow Cooker"]
 directions:
 - Heat a large skillet or a 5 1/2- to 6-quart stovetop-safe slow cooker insert over
   medium-high heat. Add the oil and sausage and cook, turning occasionally, until

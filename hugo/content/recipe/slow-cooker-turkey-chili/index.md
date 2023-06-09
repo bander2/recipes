@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-turkey-chili-3361632
 date: '2023-06-08T19:52:46Z'
+tags: ["Slow Cooker"]
 directions:
 - Heat the oil in a large nonstick skillet over medium-high heat. Add the tomato paste,
   chili powder, cumin and cayenne and cook, stirring, until the oil is brick-red and

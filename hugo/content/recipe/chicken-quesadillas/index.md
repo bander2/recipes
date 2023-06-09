@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.delish.com/cooking/recipe-ideas/recipes/a54465/easy-chicken-quesadilla-recipe/
 date: '2023-06-09T17:51:35Z'
+tags: ["Mexican", "Fast", "Chicken"]
 directions:
 - Slice into wedges and serve with sour cream.
 draft: false

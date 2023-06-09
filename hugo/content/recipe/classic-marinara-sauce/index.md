@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://cooking.nytimes.com/recipes/1015987-classic-marinara-sauce
 date: '2023-06-09T16:14:22Z'
+tags: ["Italian"]
 directions:
 - Pour tomatoes into a large bowl and crush with your hands. Pour 1 cup water into
   can and slosh it around to get tomato juices. Reserve.

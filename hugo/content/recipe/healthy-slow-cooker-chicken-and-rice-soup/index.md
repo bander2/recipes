@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/healthy-slow-cooker-chicken-and-rice-soup-5478461
 date: '2023-06-08T19:52:45Z'
+tags: ["Slow Cooker", "Chicken"]
 directions:
 - Toss the carrots and celery together in a slow cooker. Add the dill, thyme, bay
   leaf, onion and 1/2 teaspoon salt.

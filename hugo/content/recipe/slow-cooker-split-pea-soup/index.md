@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-split-pea-soup-recipe-1973429
 date: '2023-06-08T19:52:49Z'
+tags: ["Slow Cooker"]
 directions:
 - Tie the parsley stems and thyme together with kitchen string and place in a 6-quart
   slow cooker. Add the split peas, leek, celery, carrots, 1 teaspoon salt and 1/2

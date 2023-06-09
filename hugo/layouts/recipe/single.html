@@ -16,6 +16,16 @@
 
             <strong>Yields:</strong>
             {{ .Params.yields }}<br>
+
+            {{ range $taxonomy, $_ := .Site.Taxonomies }}
+                {{ with $terms := $.GetTerms $taxonomy }}
+                    <strong>{{ $taxonomy | humanize }}:</strong>
+                    {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+                        <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+                    {{- end }}
+                    <br>
+                {{ end }}
+            {{ end }}
         </p>
     </section>
 

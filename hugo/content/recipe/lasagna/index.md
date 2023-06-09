@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-09T15:40:56Z'
+tags: ["Italian"]
 directions:
 - Cook the meat.
 - Mix eggs, salt and pepper into ricotta.

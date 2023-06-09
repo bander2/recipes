@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/tyler-florence/risotto-with-wild-mushrooms-and-scallops-recipe-1916020
 date: '2023-06-09T17:51:37Z'
+tags: []
 directions:
 - Place a large, deep skillet over medium-high heat and drizzle with a 2-count of
   oil. When the oil is hot, sprinkle the scallops with salt and pepper and brown well

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.delish.com/cooking/recipe-ideas/recipes/a50063/chicken-cheesesteaks-recipe/
 date: '2023-06-09T16:14:21Z'
+tags: ["Chicken"]
 directions:
 - Serve on hoagie rolls.
 draft: false

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.hellofresh.com/recipes/teriyaki-salmon-59b1b6457cc0c107763f35d3
 date: '2023-06-09T17:51:38Z'
+tags: ["Japanese"]
 directions:
 - Wash and dry all produce. Preheat oven to 400 degrees. Peel ginger, then mince until
   you have 2 tsp. Trim, then thinly slice scallions, keeping greens and whites separate.

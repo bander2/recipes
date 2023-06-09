@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-08T19:52:51Z'
+tags: ["Chinese"]
 directions:
 - Stir fry
 draft: false

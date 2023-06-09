@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-09T15:40:56Z'
+tags: ["Grill", "Chicken"]
 directions:
 - Preheat the grill and oven
 - Salt, pepper and oil the chicken and grill it

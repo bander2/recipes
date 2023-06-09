@@ -1,6 +1,7 @@
 ---
 canonicalUrl: ""
 date: '2023-06-09T15:40:56Z'
+tags: ["Mexican", "Chicken"]
 directions:
 - Preheat the grill and turn the oven on broil.
 - In a large bowl, combine chicken, chili powder, cumin, oil, garlic powder, salt, and liquid smoke.

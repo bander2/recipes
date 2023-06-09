@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-chili-3361694
 date: '2023-06-08T19:52:51Z'
+tags: ["Slow Cooker"]
 directions:
 - Mix the tomato paste and coffee in a small bowl; set aside. Toss the meat with the
   chili powder, 1 1/2 teaspoons salt and 1/4 teaspoon pepper in a 6-quart slow cooker.

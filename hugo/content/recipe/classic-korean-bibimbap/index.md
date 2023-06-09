@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.thespruceeats.com/classic-korean-bibimbap-recipe-2118765
 date: '2023-06-09T15:40:56Z'
+tags: ["Korean"]
 directions:
 - Gather the ingredients.
 - Cook the rice in a rice cooker or on the stovetop .

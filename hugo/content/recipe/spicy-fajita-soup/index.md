@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/sandra-lee/spicy-fajita-soup-recipe-1923620
 date: '2023-06-08T19:52:47Z'
+tags: ["Slow Cooker"]
 directions:
 - In the sleeve of a slow cooker, add the onions, peppers, corn, tomatoes, garlic,
   1 tablespoon chile powder, chipotle, and broth. Season with and salt and pepper,

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.foodnetwork.com/recipes/food-network-kitchen/slow-cooker-beef-and-barley-recipe-2106372
 date: '2023-06-08T19:52:50Z'
+tags: ["Slow Cooker"]
 directions:
 - Combine the beef, barley, mushrooms, celery, carrots, leeks, thyme, beef broth and
   soy sauce in a slow cooker. Add 1 cup water, 1 teaspoon salt and 1/4 teaspoon pepper.

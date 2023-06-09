@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://www.justonecookbook.com/kimchi-chigae/
 date: '2023-06-09T17:19:10Z'
+tags: ["Korean"]
 directions:
 - Before You Start...
 - Please note that if you have not prepared your anchovy stock ahead of time, it will

@@ -1,6 +1,7 @@
 ---
 canonicalUrl: https://diethood.com/one-pot-chicken-rice-artichokes/
 date: '2023-06-09T17:51:34Z'
+tags: ["Chicken"]
 directions:
 - Preheat oven to 400F.
 - Heat olive oil in a cast iron skillet.
